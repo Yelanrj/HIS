@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="主窗口.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="主菜单.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="修改病人.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="医生接诊.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="测试.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="用户注册.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="用户登录.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="病人建档.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="病人查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="访客注册.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="访客登录.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

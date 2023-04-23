@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="修改病人.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="访客修改病人挂号.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="访客挂号记录.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="访客挂号缴费查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="访客挂号收费.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="挂号收费查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="挂号收费.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="挂号记录.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="修改病人挂号.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="挂号.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="病人挂号确认.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="病人挂号.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
